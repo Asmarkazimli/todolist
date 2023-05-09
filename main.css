@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: mediumorchid;
+}
+.container{
+    width: 500px;
+    height: auto;
+    text-align: start;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+   
+}
+.main{
+    background-color: mediumpurple;
+    width: 490px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    
+}
+input{
+    margin-left: 10%;   
+    margin-top: 10%;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 35px;
+    padding-left: 10px;
+    border: none;
+}
+h1{
+    color: midnightblue;
+    font-size: 52px;
+    padding-top: 3%;
+   text-align: center;
+}
+
+button{
+    width: 40%;
+    height: 70px;
+
+}
+.btn{
+    margin-top: 3%;
+    gap: 20%;
+    padding-left: 10%;
+}
+.btn--add{
+    background-color: red;
+    color: white;
+    font-size: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.btn--clean{
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.content{
+    width: 100%;
+  background-color: white;
+  margin-top: 50px;
+  font-size: 25px;
+  list-style-type: lower-greek;
+  background-color: rgb(204, 240, 228);
+ 
+ 
+}
+@media only screen and (max-width: 600px) {
+   .body{
+    width:100% ;
+  
+   }
+   .container{
+    width: 90%;
+    
+   }
+   .main{
+    width: 90%;
+   }
+   .main h1{
+    font-size: 25px;
+   }
+   input{
+    width: 80%;
+    align-items: center;
+    font-size: 25px;
+   }
+   .bb{
+    font-size: 25px;
+   }
+  }
